@@ -1,2171 +1,1151 @@
 {
-  "lastUpdated": "2026-03-12T18:46:36.591Z",
-  "totalCount": 309,
+  "lastUpdated": "2026-03-13T17:08:34.200Z",
+  "totalCount": 127,
   "owner": "Balaji Sivarajan",
   "email": "sbalaji.prof@gmail.com",
   "applications": [
     {
-      "date": "Mar 12, 2026",
-      "company": "Workday",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "date": "Mar 13, 2026",
+      "company": "Salesforce",
+      "role": "Senior Manager of Engineering, Search Data Infrastructure - Slack",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19ce6242f36cfcc1",
+      "_threadId": "19ce6242f36cfcc1"
+    },
+    {
+      "date": "Mar 13, 2026",
+      "company": "Nvidia",
+      "role": "JR2013606 Senior Software Technical Program Manager, Compute – Aerial",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19ce6194acf4b02e",
+      "_threadId": "19ce6194acf4b02e"
     },
     {
       "date": "Mar 12, 2026",
-      "company": "LinkedIn",
-      "role": "Director, Technical Program Management",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "company": "EY",
+      "role": "Technical Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4c39dfb08340",
+      "_threadId": "19ce4c39dfb08340"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "Rippling ATS",
+      "role": "Senior Project Manager ****",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4b4bf8047e6c",
+      "_threadId": "19ce4b4bf8047e6c"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "Affirm",
+      "role": "Senior Manager, Technical Programs",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce425995999fe1",
+      "_threadId": "19ce425995999fe1"
     },
     {
       "date": "Mar 12, 2026",
       "company": "Starbucks",
-      "role": "Technical Program Manager",
+      "role": "technical program manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19ce2d0f4fe8b567",
+      "_threadId": "19ce2d0f4fe8b567"
     },
     {
       "date": "Mar 12, 2026",
       "company": "Prolific",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "role": "Senior Human Data Operations Partner, AI",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19ce15aa54bc7445",
+      "_threadId": "19ce15aa54bc7445"
     },
     {
-      "date": "Mar 11, 2026",
-      "company": "Amazon",
-      "role": "Manager , Prime Video Sports Linear and News",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "date": "Mar 12, 2026",
+      "company": "KTek Resourcing",
+      "role": "Senior Information Technology Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce595a042e00ab",
+      "_threadId": "19ce595a042e00ab"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "Optomi",
+      "role": "Senior Manager, Software Engineering",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4bfa35e9399d",
+      "_threadId": "19ce4bfa35e9399d"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "Sage Recruiting",
+      "role": "Senior Engineering Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4bf4a20b2c39",
+      "_threadId": "19ce4bf4a20b2c39"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "TEEMA",
+      "role": "Senior Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4bb189bba83b",
+      "_threadId": "19ce4bb189bba83b"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "HCLTech",
+      "role": "Technical Program Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4b3cfbbe0e6d",
+      "_threadId": "19ce4b3cfbbe0e6d"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "Insight Global",
+      "role": "Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce4b38261081f3",
+      "_threadId": "19ce4b38261081f3"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "company": "Rover.com",
+      "role": "Director, Technical Program Management",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ce2d3a650270c3",
+      "_threadId": "19ce2d3a650270c3"
     },
     {
       "date": "Mar 11, 2026",
       "company": "Nintendo",
-      "role": "Technical Program Manager",
+      "role": "Technical Program Manager (NTD)",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19ce05cc91c3790e",
+      "_threadId": "19ce05cc91c3790e"
     },
     {
       "date": "Mar 11, 2026",
-      "company": "Auth0",
-      "role": "Your Okta Application - Staff Technical Program Manager (B2B)",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "company": "Okta / Auth0",
+      "role": "Staff Technical Program Manager (B2B)",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19cdda0f1318de32",
+      "_threadId": "19cdda0f1318de32"
     },
     {
       "date": "Mar 11, 2026",
       "company": "Stripe",
       "role": "our Manager, Risk Ops Tech Enablement Programs",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 11, 2026",
-      "company": "LinkedIn",
-      "role": "Job Title: Technical Data Project Manager – Retail Domain",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "HPE",
-      "role": "position of 1199914 Engineering Program Manager 3. We decided to move",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "American Express",
-      "role": "Earn a 175,000 Membership Rewards® points offer: Apply Today",
-      "status": "Applied",
-      "comment": ""
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19cdd8fe4013aaf0",
+      "_threadId": "19cdd8fe4013aaf0"
     },
     {
       "date": "Mar 10, 2026",
       "company": "Leap Tools",
-      "role": "Technical Program Manager",
+      "role": "Technical Project Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd9190bd1aa318",
+      "_threadId": "19cd9190bd1aa318"
     },
     {
       "date": "Mar 10, 2026",
       "company": "ServiceNow",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "PointClickCare",
-      "role": "Principal Program Manager role here",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Scopely",
-      "role": "for a position",
+      "role": "Senior Program Manager, Strategic Revenue Engagements - Elevate",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Okta",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Docker",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Senior Manager",
-      "role": ", Technical Programs",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Senior Technical Program Manager",
-      "role": ", Office Builds and IT Infrastructure received by Team Flexport",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "DoorDash",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Amazon",
-      "role": "Technical Program Manager , Prime Video Sports Linear and News",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Amazon",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Compass",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "LinkedIn",
-      "role": "TikTok Shop - Arbitration Program Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Airtable",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Apollo GraphQL",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Workday",
-      "role": "We appreciate your interest in F5 and the Program Manager position. In the",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Zillow",
-      "role": "Manager, FUB Engineering . We're thrilled that you're interested in being",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd903ce2fa7dc0",
+      "_threadId": "19cd903ce2fa7dc0"
     },
     {
       "date": "Mar 10, 2026",
       "company": "Jobber",
-      "role": "Technical Program Manager",
+      "role": "Technical Program Manager, Trust Engineering",
+      "status": "Interviewing",
+      "notes": "Interview / recruiter outreach",
+      "_msgId": "19cd8abed5683f3c",
+      "_threadId": "19cd8abed5683f3c"
+    },
+    {
+      "date": "Mar 10, 2026",
+      "company": "TikTok",
+      "role": "TikTok Shop - Arbitration Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd8e04b0ce2712",
+      "_threadId": "19cd8e04b0ce2712"
     },
     {
       "date": "Mar 10, 2026",
-      "company": "The Athletic",
-      "role": "your Staff Technical Program Manager (Remote) application",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Redpanda Data",
-      "role": "Technical Program Manager",
+      "company": "Hpe",
+      "role": "Engineering Program Manager 3",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cda4d68ce6aa60",
+      "_threadId": "19cda4d68ce6aa60"
     },
     {
       "date": "Mar 10, 2026",
-      "company": "Amazon",
-      "role": "Manager, Amazon Connect",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Stripe",
-      "role": "our Technical Program Manager,  Identity and Access Management Programs",
+      "company": "Ffive",
+      "role": "Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "CIBC Banking",
-      "role": "Important information about your account offer",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 10, 2026",
-      "company": "Trending Bowl Posts",
-      "role": "\"Hi All, I got an IBM offer letter",
-      "status": "Offer",
-      "comment": "🎉 Offer received!"
+      "notes": "Application received",
+      "_msgId": "19cd8ce42edde726",
+      "_threadId": "19cd8ce42edde726"
     },
     {
       "date": "Mar 09, 2026",
-      "company": "Engagement Manager at Superhuman",
+      "company": "Superhuman",
       "role": "Engagement Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 09, 2026",
-      "company": "LinkedIn",
-      "role": "Senior Information Technology Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Mar 09, 2026",
-      "company": "Caylent",
-      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 09, 2026",
-      "company": "Workday",
-      "role": "Manager, Retail Technology opportunity",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 09, 2026",
-      "company": "Airbnb",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 09, 2026",
-      "company": "Rivian",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 09, 2026",
-      "company": "Datadog",
-      "role": "Thanks again for your interest in Datadog and the Senior Technical",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "LaunchDarkly",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "LinkedIn",
-      "role": "Agile Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "AMD",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd6234e973aea4",
+      "_threadId": "19cd6234e973aea4"
     },
     {
       "date": "Mar 08, 2026",
       "company": "LinkedIn",
       "role": "Sr. Staff Technical Program Manager, Core Infrastructure",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "LinkedIn",
-      "role": "Technical Program Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "Vanta",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "Amazon",
-      "role": "Technical Program Manager, Amazon Connect",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd10563438f5a9",
+      "_threadId": "19cd10563438f5a9"
     },
     {
       "date": "Mar 08, 2026",
       "company": "Databricks",
+      "role": "Sr. Program Manager, Data for Good",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cd0d69268f89a2",
+      "_threadId": "19cd0d69268f89a2"
+    },
+    {
+      "date": "Mar 08, 2026",
+      "company": "Databricks",
+      "role": "Sr. Staff Technical Program Manager - Reliability",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cd113edebb02f2",
+      "_threadId": "19cd0d69268f89a2"
+    },
+    {
+      "date": "Mar 08, 2026",
+      "company": "CRG",
+      "role": "Agile Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cd10f4cbc15437",
+      "_threadId": "19cd10f4cbc15437"
+    },
+    {
+      "date": "Mar 08, 2026",
+      "company": "Crossing Hurdles",
       "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd10530239274c",
+      "_threadId": "19cd10530239274c"
+    },
+    {
+      "date": "Mar 08, 2026",
+      "company": "Spraggs Group",
+      "role": "Technical Product Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cd01f0577aafb4",
+      "_threadId": "19cd01f0577aafb4"
+    },
+    {
+      "date": "Mar 08, 2026",
+      "company": "TikTok",
+      "role": "Technical Program Manager Lead- Monetization Ads Product and Tech",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ccdc1eddbf8ae9",
+      "_threadId": "19ccdc1eddbf8ae9"
     },
     {
       "date": "Mar 08, 2026",
       "company": "Disney",
-      "role": "you’ve shown in the Sr Technical Program Mgr position",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "LinkedIn",
-      "role": "Technical Product Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Mar 08, 2026",
-      "company": "Apply Digital",
-      "role": "Manager/Scrum Master",
+      "role": "Lead Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cd0ad42ff25436",
+      "_threadId": "19cd0ad42ff25436"
     },
     {
       "date": "Mar 08, 2026",
-      "company": "LinkedIn",
-      "role": "Technical Program Manager Lead- Monetization Ads Product and Tech",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "company": "Disney",
+      "role": "Sr Technical Program Mgr",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cd0fd57217f9d1",
+      "_threadId": "19cd0ad42ff25436"
     },
     {
       "date": "Mar 07, 2026",
-      "company": "LinkedIn",
+      "company": "TikTok",
       "role": "Senior Program Manager- Monetization Ads Product and Tech",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19ccbedd66a34bac",
+      "_threadId": "19ccbedd66a34bac"
     },
     {
       "date": "Mar 07, 2026",
-      "company": "Author Success",
-      "role": "Last day",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 07, 2026",
-      "company": "LinkedIn",
+      "company": "DataVisor",
       "role": "Sr. Technical Project Manager - Client Service Delivery",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19ccb06a4a509d6c",
+      "_threadId": "19ccb06a4a509d6c"
     },
     {
       "date": "Mar 07, 2026",
-      "company": "Treasure Data",
-      "role": "Senior Technical Project Managerポジションへご応募を頂き、誠にありがとうございます。",
+      "company": "DataVisor",
+      "role": "Technical Project Manager - Client Service Delivery",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 07, 2026",
-      "company": "\"Scene+\"",
-      "role": "🚨Your 1,500-point offer",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 06, 2026",
-      "company": "Meta",
-      "role": "Program Manager, Admin Programs Team role. Our recruiting team will contact",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 06, 2026",
-      "company": "Axon",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 06, 2026",
-      "company": "Workday",
-      "role": "Manager, CMPT ( JR23784 ) at the University of British Columbia",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 06, 2026",
-      "company": "Robinhood",
-      "role": "Manager position. We've been extremely fortunate to have a fantastic",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 05, 2026",
-      "company": "Inesio Royball",
-      "role": "Principal Technology Optimization Manager",
-      "status": "Role on Hold",
-      "comment": "Role paused by hiring team"
-    },
-    {
-      "date": "Mar 05, 2026",
-      "company": "Bowl Digest on Fishbowl",
-      "role": "Hello fishes,I got an offer for TCS with 20 LPA for accessibility Lead",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Chewy",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "DataRobot",
-      "role": "Job Application Update",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Author Success",
-      "role": "Reminder: Grab this Author Copy offer in 3 days",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "American Express",
-      "role": "Don’t miss out on 100,000 Bonus Miles Offer",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19ccb07ddc515066",
+      "_threadId": "19ccb06a4a509d6c"
     },
     {
       "date": "Mar 04, 2026",
       "company": "GitLab",
-      "role": "Technical Program Manager",
+      "role": "Senior Technical Program Manager, Office of the CTO",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cba6b490cd70d6",
+      "_threadId": "19cba6b490cd70d6"
     },
     {
       "date": "Mar 04, 2026",
-      "company": "Samsara",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "CrowdStrike",
-      "role": "Job Application Confirmation",
+      "company": "ServiceNow",
+      "role": "Sr. Technical Consultant, CRM and Industry Workflows - Field Service Management",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cba688fa553bd6",
+      "_threadId": "19cba688fa553bd6"
     },
     {
       "date": "Mar 04, 2026",
-      "company": "MongoDB",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Elastic",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Palo Alto Networks",
-      "role": "Sr Technical Program Manager II",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Cloudflare",
-      "role": "- Technical Program Manager",
-      "status": "Screening",
-      "comment": "Screening in progress"
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Cloudflare",
-      "role": "- Senior Technical Program Manager",
-      "status": "Screening",
-      "comment": "Screening in progress"
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "Datadog",
-      "role": "Multiple Roles",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 04, 2026",
-      "company": "PM Exercises",
-      "role": "This Week's Top PM Interview Questions & Answers",
-      "status": "Applied",
-      "comment": ""
+      "company": "Ouryahoo",
+      "role": "Sr. Technical Project Manager",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19cb80975c30718e",
+      "_threadId": "19cb80975c30718e"
     },
     {
       "date": "Mar 03, 2026",
       "company": "Snowflake",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 03, 2026",
-      "company": "Meta",
-      "role": "Technical Program Manager role. Our recruiting team will contact you if",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Mar 03, 2026",
-      "company": "LinkedIn",
       "role": "Senior Technical Program Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cb791f08ae05ef",
+      "_threadId": "19cb791f08ae05ef"
+    },
+    {
+      "date": "Mar 03, 2026",
+      "company": "Databricks",
+      "role": "Staff Technical Program Manager, Professional Services - Public Sector",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19cb7859055238b9",
+      "_threadId": "19cb7859055238b9"
     },
     {
       "date": "Mar 03, 2026",
       "company": "Runpod",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 03, 2026",
-      "company": "Airbnb",
-      "role": "Staff Technical Program Manager, Reliability & Observability",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Mar 03, 2026",
-      "company": "Oracle",
-      "role": "Manager-326689. We know it takes time and energy to apply, so we appreciate",
+      "role": "our Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cb7648a726f08f",
+      "_threadId": "19cb7648a726f08f"
     },
     {
       "date": "Mar 03, 2026",
-      "company": "Balaji Sivarajan",
+      "company": "Anime Universe",
       "role": "Senior Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Mar 02, 2026",
-      "company": "Talent",
-      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19cb766ca5dfb99a",
+      "_threadId": "19cb766ca5dfb99a"
     },
     {
       "date": "Mar 02, 2026",
       "company": "Stripe",
       "role": "our Technical Program Manager, People Solutions",
-      "status": "Applied",
-      "comment": ""
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19caf734a469b50c",
+      "_threadId": "19caf734a469b50c"
     },
     {
-      "date": "Mar 02, 2026",
-      "company": "Salesforce",
-      "role": "Senior Manager of Engineering, Search Data Infrastructure",
+      "date": "Feb 26, 2026",
+      "company": "Rivian Automotive",
+      "role": "our Sr. Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c9dde62d3e53d1",
+      "_threadId": "19c9dde62d3e53d1"
     },
     {
-      "date": "Mar 02, 2026",
-      "company": "Brex",
+      "date": "Feb 26, 2026",
+      "company": "Rivian Automotive",
+      "role": "our Sr. Technical Program Manager - Materials &amp; Joining",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c9ddeb8602831d",
+      "_threadId": "19c9dde62d3e53d1"
+    },
+    {
+      "date": "Feb 26, 2026",
+      "company": "Rivian Automotive",
+      "role": "our Staff Technical Program Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c9ddee496bf765",
+      "_threadId": "19c9dde62d3e53d1"
+    },
+    {
+      "date": "Feb 26, 2026",
+      "company": "Rivian Automotive",
+      "role": "our Staff Technical Program Manager (Manufacturing Engineering &amp; Automation)",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c9ddf107f4031a",
+      "_threadId": "19c9dde62d3e53d1"
+    },
+    {
+      "date": "Feb 26, 2026",
+      "company": "Two Circles",
+      "role": "Technical Delivery Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c9d8c2012a717b",
+      "_threadId": "19c9d8c2012a717b"
+    },
+    {
+      "date": "Feb 26, 2026",
+      "company": "Yochana",
       "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 28, 2026",
-      "company": "lululemon",
-      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 28, 2026",
-      "company": "Google DeepMind",
-      "role": "Application feedback",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 27, 2026",
-      "company": "Expedia",
-      "role": "Senior Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 27, 2026",
-      "company": "Plaid",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 27, 2026",
-      "company": "SoFi",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 27, 2026",
-      "company": "Coinbase",
-      "role": "Important information about your application",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 27, 2026",
-      "company": "Trending Bowl Posts",
-      "role": "*a* *Test Engineer* 3 Likes ● 16 Comments",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c9ce5b8608a3fd",
+      "_threadId": "19c9ce5b8608a3fd"
     },
     {
       "date": "Feb 26, 2026",
       "company": "Mastercard",
-      "role": "Lead Technical Program Manager",
+      "role": "the role: Lead Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c9df56b37b40c2",
+      "_threadId": "19c9df56b37b40c2"
     },
     {
       "date": "Feb 26, 2026",
-      "company": "OpenAI",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Anthropic",
-      "role": "Technical Program Manager",
+      "company": "Mastercard",
+      "role": "the role: Senior Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c9dfd2d327b2f3",
+      "_threadId": "19c9df56b37b40c2"
     },
     {
       "date": "Feb 26, 2026",
-      "company": "Google DeepMind",
-      "role": "Technical Program Manager",
+      "company": "Mastercard",
+      "role": "the role: Director - Program Management",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c9dfebc2971e4b",
+      "_threadId": "19c9df56b37b40c2"
     },
     {
       "date": "Feb 26, 2026",
-      "company": "Tesla",
-      "role": "Technical Program Manager",
+      "company": "Mastercard",
+      "role": "the role: Lead Technical Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Robinhood",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Uber",
-      "role": "Sr Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Uber",
-      "role": "Senior Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Confluent",
-      "role": "Senior Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Confluent",
-      "role": "Sr. Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Snap",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "LinkedIn",
-      "role": "Technical Delivery Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Electronic Arts",
-      "role": "Sr. Technical Program Manager (211396)",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 26, 2026",
-      "company": "Wagepoint",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 25, 2026",
-      "company": "BCLC",
-      "role": "for the  Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 25, 2026",
-      "company": "PM Exercises",
-      "role": "Newest PM Interview Questions & Answers this week",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 25, 2026",
-      "company": "Adobe",
-      "role": "Program Manager * role",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 24, 2026",
-      "company": "Applied Materials",
-      "role": "Welcome",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 24, 2026",
-      "company": "Applied Materials",
-      "role": "Project/Program Manager, Operations",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 24, 2026",
-      "company": "LendingClub",
-      "role": "Act now, Balaji. Your $200 bonus offer ends soon",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 24, 2026",
-      "company": "Google",
-      "role": "Telephone Interview for Senior Technical Program Manager at DataRobot",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 23, 2026",
-      "company": "Arc'teryx",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c9e061254a9248",
+      "_threadId": "19c9df56b37b40c2"
     },
     {
       "date": "Feb 23, 2026",
       "company": "The Voleon Group",
+      "role": "Senior Program Manager",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19c8cba393a88582",
+      "_threadId": "19c8cba393a88582"
+    },
+    {
+      "date": "Feb 22, 2026",
+      "company": "Category Labs",
       "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 23, 2026",
-      "company": "DataRobot",
-      "role": "Telephone Interview for Senior Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 23, 2026",
-      "company": "DataRobot",
-      "role": "We set up your telephone interview for our Senior Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 23, 2026",
-      "company": "DataRobot",
-      "role": "Senior Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 23, 2026",
-      "company": "FluidStack",
-      "role": "Application Update",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c8822d02521c8b",
+      "_threadId": "19c8822d02521c8b"
     },
     {
-      "date": "Feb 21, 2026",
-      "company": "Alex Rechevskiy",
-      "role": "Four years at a major social media company leading ad products",
+      "date": "Feb 20, 2026",
+      "company": "Starbucks",
+      "role": "manager, program management, Licensed Coffeehouses PMO",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c7df88e01f55f0",
+      "_threadId": "19c7df88e01f55f0"
     },
     {
-      "date": "Feb 21, 2026",
-      "company": "Zillow",
-      "role": "Manager . We're thrilled that you're interested in being part of our",
+      "date": "Feb 20, 2026",
+      "company": "The MNTN",
+      "role": "MNTN and the time you've taken to apply for the Project Manager, PMO",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c7df0cf791e24e",
+      "_threadId": "19c7df0cf791e24e"
     },
     {
-      "date": "Feb 21, 2026",
-      "company": "\"From Richa's Desk\"",
-      "role": "You Lose 40K–150K the Moment You Say Yes",
-      "status": "Applied",
-      "comment": ""
+      "date": "Feb 20, 2026",
+      "company": "Glean",
+      "role": "Senior Technical Program Manager, Infrastructure (TPM)",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19c7de93f1bb2380",
+      "_threadId": "19c7de93f1bb2380"
     },
     {
       "date": "Feb 20, 2026",
       "company": "Mastercard",
       "role": "Lead Product Manager- Technical",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Expedia",
-      "role": "Technical Program Manager III",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Expedia",
-      "role": "the Technical Program Manager III",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Starbucks",
-      "role": "manager, program management, Licensed Coffeehouses PMO position, and are",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Unity Technologies",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Zynga",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Us",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Ramp",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Glean",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Whatnot",
-      "role": "👋 Thank you for applying",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "Built In",
-      "role": "Is Using AI in a Job Interview Cheating? It Depends",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "League Inc",
-      "role": "Important information about your application",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 20, 2026",
-      "company": "balaji Sivarajan",
-      "role": "Technical Program Manager role, as you had mentioned you expected to have",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c7eb4018ddc99d",
+      "_threadId": "19c7eb4018ddc99d"
     },
     {
       "date": "Feb 19, 2026",
-      "company": "\"Citi® Diamond Preferred® Card\"",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 19, 2026",
-      "company": "Bowl Digest on Fishbowl",
-      "role": "*a* *Consultant* 8 Likes ● 5 Comments",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 19, 2026",
-      "company": "Life360",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "LinkedIn",
-      "role": "Technical Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "Oracle",
-      "role": "Manager - 326689",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "FluidStack",
-      "role": "- Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "LinkedIn",
-      "role": "​Sr Project Manager, TA Platforms​",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "PM Exercises",
-      "role": "Latest PM Interview Questions & Answers this week",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "Shoppers Stop",
-      "role": "🤑 Never Bought? Take This Offer",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 18, 2026",
-      "company": "Balaji Sivarajan",
-      "role": "Apple Interview - Wednesday, January 28",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 17, 2026",
-      "company": "Asana",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 17, 2026",
-      "company": "balaji Sivarajan",
-      "role": "Action Required: Your interview",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 16, 2026",
-      "company": "Amazon",
-      "role": "Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 16, 2026",
-      "company": "LinkedIn",
-      "role": "was viewed by Kaseya",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 15, 2026",
-      "company": "Balaji Sivarajan",
-      "role": "[External] Re: Expedia Group Application Update",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 15, 2026",
-      "company": "Workday",
-      "role": "Technical Program Manager / Technical Program Manager opportunity",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 15, 2026",
       "company": "Kaseya",
-      "role": "Technical Program Manager",
+      "role": "Director, Technical Program Management",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c761220eff9146",
+      "_threadId": "19c761220eff9146"
+    },
+    {
+      "date": "Feb 18, 2026",
+      "company": "Fluidstack",
+      "role": "Technical Program Manager, Deployments",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c726a62ded19c0",
+      "_threadId": "19c726a62ded19c0"
+    },
+    {
+      "date": "Feb 18, 2026",
+      "company": "The LinkedIn",
+      "role": "​Sr Project Manager, TA Platforms​",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19c7257740eb777b",
+      "_threadId": "19c7257740eb777b"
+    },
+    {
+      "date": "Feb 18, 2026",
+      "company": "Fractal",
+      "role": "Technical Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c747df9ae2f939",
+      "_threadId": "19c747df9ae2f939"
     },
     {
       "date": "Feb 15, 2026",
-      "company": "Sr Program Specialist",
-      "role": "132623",
+      "company": "Databricks",
+      "role": "Staff Technical Program Manager – GenAI Ops & Capacity Planning",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c6514c9b26bea8",
+      "_threadId": "19c6514c9b26bea8"
     },
     {
       "date": "Feb 15, 2026",
-      "company": "Figma",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Feb 15, 2026",
-      "company": "Workday",
-      "role": "Program Manager role (Req ID R-0000153770 )",
+      "company": "Kaseya - GH",
+      "role": "Director, Technical Program Management",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 14, 2026",
-      "company": "\"From Richa's Desk\"",
-      "role": "Why Losing the Meta Offer Was Actually a Win",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 13, 2026",
-      "company": "Reshma",
-      "role": "SecureLayerCybersecurity Analyst",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 13, 2026",
-      "company": "Workday",
-      "role": "Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 13, 2026",
-      "company": "Verndale LLC",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Feb 13, 2026",
-      "company": "Sbalaji Prof",
-      "role": "ACCEPTED: GSPANN Interview | PM Role | @Feb 13, 2026 2:00 PM - 02:30 PM (sbalaji",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 13, 2026",
-      "company": "GSPANN",
-      "role": "Interview | PM Role |",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 11, 2026",
-      "company": "Waymo",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 11, 2026",
-      "company": "PM Exercises",
-      "role": "Most Recent PM Interview Questions and Answers",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 11, 2026",
-      "company": "RemoteHub Marketing",
-      "role": "Limited-Time Offer: Hire Smarter",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 10, 2026",
-      "company": "Bowl Digest on Fishbowl",
-      "role": "\"My bro got this offer and currently getting 25L wi...\"",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c63516f70b7b64",
+      "_threadId": "19c63516f70b7b64"
     },
     {
       "date": "Feb 09, 2026",
-      "company": "Wagepoint",
-      "role": "has Received your Application",
+      "company": "Acceler8 Talent",
+      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 09, 2026",
-      "company": "Jamuna Vyas",
-      "role": "Account Executive Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 07, 2026",
-      "company": "LinkedIn",
-      "role": "Scrum Master",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Feb 07, 2026",
-      "company": "Alex Rechevskiy",
-      "role": "the collaborative interview cheat sheet I wish I had (7-step framework)",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 04, 2026",
-      "company": "PM Exercises",
-      "role": "New PM Interview Questions and Answers this week",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c43d3a947aeb03",
+      "_threadId": "19c43d3a947aeb03"
     },
     {
       "date": "Feb 03, 2026",
-      "company": "balaji Sivarajan",
-      "role": "> Sr Talent Acquisition Analyst",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
+      "company": "Nvidia",
+      "role": "JR2007645 Senior Program Manager, Carline – Autonomous Vehicles",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19c22afeda0e3922",
+      "_threadId": "19c22afeda0e3922"
     },
     {
       "date": "Feb 02, 2026",
-      "company": "PayNearMe",
-      "role": "​Senior Project Manager (Customer Success) - Remote​ - Update on your applicatio",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "company": "JobberAttraction",
+      "role": "Technical Program Manager, Trust Engineering",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19c1fd28924b3955",
+      "_threadId": "19c1fd28924b3955"
     },
     {
       "date": "Feb 02, 2026",
-      "company": "Amazon",
-      "role": "Manager, AWS ProServe",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 02, 2026",
-      "company": "Dice Recruiter",
-      "role": "immediate interview || Technical Scrum Master (With Azure) || Issaquah, WA",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 02, 2026",
-      "company": "Allstate",
-      "role": "Special offer: Save 20% on TurboTax",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 02, 2026",
-      "company": "Cic",
-      "role": "E-01-10100-10102-Update or ask about your application: Check your application st",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Feb 01, 2026",
-      "company": "Sbalaji Prof",
-      "role": "ACCEPTED: Matthew Jacobs has requested a candidate interview for posting Madison",
-      "status": "Applied",
-      "comment": ""
+      "company": "Nvidia",
+      "role": "JR2005752 Technical Program Manager - Autonomous Vehicles Simulation",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19c1d895dadda07f",
+      "_threadId": "19c1d895dadda07f"
     },
     {
       "date": "Jan 31, 2026",
-      "company": "LinkedIn",
+      "company": "VySystems",
       "role": "Agile Delivery Lead",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 31, 2026",
-      "company": "Amazon",
-      "role": "application: Status update",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 30, 2026",
-      "company": "Jamuna Vyas",
-      "role": "[dotStaff]",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 30, 2026",
-      "company": "Oracle",
-      "role": "Your job application status (Job number: 210641403)",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "notes": "Application received",
+      "_msgId": "19c15360101f08a6",
+      "_threadId": "19c15360101f08a6"
     },
     {
       "date": "Jan 29, 2026",
       "company": "Mastercard",
       "role": "Director, Project Management",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 29, 2026",
-      "company": "Mozilla",
-      "role": "Update Regarding Your Mozilla Staff Technical Program Manager Application",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 29, 2026",
-      "company": "Oracle",
-      "role": "Manager, Compute-307762. We know it takes time and energy to apply, so we",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19c0d7798f11b5e9",
+      "_threadId": "19c0d7798f11b5e9"
     },
     {
       "date": "Jan 28, 2026",
       "company": "LinkedIn",
       "role": "Sr Project Manager, TA Platforms",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c07917df339061",
+      "_threadId": "19c07917df339061"
     },
     {
       "date": "Jan 28, 2026",
-      "company": "LinkedIn",
+      "company": "Empire Life",
       "role": "Program Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19c079006ff31b16",
+      "_threadId": "19c079006ff31b16"
     },
     {
       "date": "Jan 28, 2026",
       "company": "Roku",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 28, 2026",
-      "company": "LinkedIn",
       "role": "Senior Program Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 28, 2026",
-      "company": "Snowflake",
-      "role": "| Update regarding your application",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 28, 2026",
-      "company": "Caylent",
-      "role": "Important information about your application",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 28, 2026",
-      "company": "Toshiba Global Commerce Solutions",
-      "role": "Technical Program Manager II",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 27, 2026",
-      "company": "Alex Rechevskiy",
-      "role": "From \"not this time\"",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 27, 2026",
-      "company": "Sbalaji Prof",
-      "role": "ACCEPTED: SUMMARY;LANGUAGE=en-US:16356: ​Virtual​  Interview @Feb 5, 2026 4:00 A",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 27, 2026",
-      "company": "BCLC",
-      "role": "16356: ​Virtual​ Interview",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 27, 2026",
-      "company": "BCLC",
-      "role": "Your* Virtual Interview* for the position of Technical Program Manager has",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
+      "notes": "Application received",
+      "_msgId": "19c05c1d48e70ca1",
+      "_threadId": "19c05c1d48e70ca1"
     },
     {
       "date": "Jan 26, 2026",
       "company": "Okta",
-      "role": "Your Okta Application - Staff Program Manager - TDI Strategy & Planning",
+      "role": "Staff Program Manager - TDI Strategy & Planning",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 26, 2026",
-      "company": "Stripe",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 26, 2026",
-      "company": "Amazon",
-      "role": "Share your feedback: Your recent Amazon interview experience",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 26, 2026",
-      "company": "Sangeeta Carter",
-      "role": "Updated invitation",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19bfdc5658a9a01d",
+      "_threadId": "19bfdc5658a9a01d"
     },
     {
       "date": "Jan 25, 2026",
-      "company": "LinkedIn",
+      "company": "Federal Tax Authority",
       "role": "Senior Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 25, 2026",
-      "company": "Summit Credit Union and TruStage",
-      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19bf8a7d5de18160",
+      "_threadId": "19bf8a7d5de18160"
     },
     {
       "date": "Jan 24, 2026",
-      "company": "LinkedIn",
+      "company": "Nava",
       "role": "Sr. Program Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19bf367e23f84bed",
+      "_threadId": "19bf367e23f84bed"
     },
     {
       "date": "Jan 24, 2026",
-      "company": "Workday",
-      "role": "the JR2025478148 Aviation Software Project Manager. While your",
+      "company": "Boeing",
+      "role": "the JR2025478148 Aviation Software Project Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 24, 2026",
-      "company": "Balaji Sivarajan",
-      "role": "BCLC - Telephone Interview Request",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Jan 22, 2026",
-      "company": "Cloudflare",
-      "role": "Application Update | Senior IT Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 22, 2026",
-      "company": "Balaji Sivarajan",
-      "role": "> Recruiting Coordinator",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 21, 2026",
-      "company": "\"Kaluva, Uday Sai | Saras America\"",
-      "role": "Subject: Interview : Virtual !! Project Manager !! H4-EAD/USC !! Remote",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 21, 2026",
-      "company": "PM Exercises",
-      "role": "Latest PM Interview Questions and Answers",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 21, 2026",
-      "company": "Affirm",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 20, 2026",
-      "company": "Bowl Digest on Fishbowl",
-      "role": "both Technical and Managerial rounds were conducted in the same call. After",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19bef3232ac8e237",
+      "_threadId": "19bef3232ac8e237"
     },
     {
       "date": "Jan 19, 2026",
-      "company": "T-Mobile Candidate Experience Surveys",
-      "role": "Reminder: We'd Love",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 17, 2026",
-      "company": "\"From Richa's Desk\"",
-      "role": "Why Saying No",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 16, 2026",
-      "company": "MissionStaff",
-      "role": "Application Update: Senior Technical Project Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 15, 2026",
-      "company": "Synctera",
-      "role": "An important update on your Project Manager application",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 15, 2026",
-      "company": "Qualcomm",
-      "role": "Talent Acquisition Update:  Application",
-      "status": "Applied",
-      "comment": ""
+      "company": "Nvidia",
+      "role": "JR2009074 Senior Customer Technical Program Manager - AI Datacenter",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19bd55e7ca690a58",
+      "_threadId": "19bd55e7ca690a58"
     },
     {
       "date": "Jan 14, 2026",
-      "company": "Workday",
-      "role": "For the Role of Sr. Technical Program Manager , we have decided to move",
-      "status": "Applied",
-      "comment": ""
+      "company": "Accela and for applying to the",
+      "role": "Accela and for applying to the Principal Technical Program Manager",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19bbd5e7dca78a79",
+      "_threadId": "19bbd5e7dca78a79"
     },
     {
       "date": "Jan 14, 2026",
-      "company": "LinkedIn",
+      "company": "Cypress HCM",
       "role": "Program Manager, Talent, 2507-1",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19bbcaee8411b335",
+      "_threadId": "19bbcaee8411b335"
     },
     {
       "date": "Jan 14, 2026",
-      "company": "LinkedIn",
+      "company": "The Judge Group",
       "role": "Program Manager (Operations)",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 14, 2026",
-      "company": "Workday",
-      "role": "Technical Program Manager role and we've decided not to move forward with",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19bbcad019b037db",
+      "_threadId": "19bbcad019b037db"
     },
     {
       "date": "Jan 12, 2026",
       "company": "Stripe",
       "role": "our Technical Program Manager, Commerce Systems",
-      "status": "Applied",
-      "comment": ""
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19bb33c88cd38d09",
+      "_threadId": "19bb33c88cd38d09"
     },
     {
       "date": "Jan 12, 2026",
-      "company": "T-Mobile Candidate Experience Surveys",
-      "role": "We'd Love",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 12, 2026",
-      "company": "Welcome to the Jungle",
-      "role": "Director of Engineering Operations",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 11, 2026",
-      "company": "Amazon",
-      "role": "Manager, WWPS ProServe",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 11, 2026",
-      "company": "micro1",
-      "role": "<li>We will start recommending your profile with leading companies</li>",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 11, 2026",
-      "company": "Deloitte Open",
-      "role": "a Deloitte Open Talent contracting",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 11, 2026",
-      "company": "Workday",
-      "role": "for: REQ340626 Senior Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 11, 2026",
-      "company": "Adobe",
-      "role": "Program Manager, Foundry * role",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "company": "Nvidia",
+      "role": "JR2009742 Senior Technical Program Manager, NVIS",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19bb15b040c1cc3a",
+      "_threadId": "19bb15b040c1cc3a"
     },
     {
       "date": "Jan 10, 2026",
-      "company": "LinkedIn",
+      "company": "Lorven Technologies",
       "role": "Global Technical Delivery Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 09, 2026",
-      "company": "Equifax",
-      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 09, 2026",
-      "company": "Swati Sood",
-      "role": "Important information about your application",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "notes": "Application received",
+      "_msgId": "19ba89b3a1bdf4cc",
+      "_threadId": "19ba89b3a1bdf4cc"
     },
     {
       "date": "Jan 08, 2026",
-      "company": "micro1",
-      "role": "AI interview",
+      "company": "ServiceNow",
+      "role": "Senior Staff Strategic Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b9fc71b857a63e",
+      "_threadId": "19b9fc71b857a63e"
     },
     {
       "date": "Jan 08, 2026",
-      "company": "PlayStation Global",
-      "role": "Important information about your application",
-      "status": "Applied",
-      "comment": ""
+      "company": "JobberAttraction",
+      "role": "Senior Technical Program Manager, Data Integration (14 Month Contract)",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19b9f1519da34309",
+      "_threadId": "19b9f1519da34309"
     },
     {
       "date": "Jan 08, 2026",
-      "company": "\"Siemens P&OAcquisition\"",
-      "role": "An update on your recent Siemens application",
+      "company": "Cribl",
+      "role": "Senior Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19ba02db14e1020b",
+      "_threadId": "19ba02db14e1020b"
     },
     {
       "date": "Jan 08, 2026",
-      "company": "Metropolis",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 08, 2026",
-      "company": "Emirates Group",
-      "role": "Your Emirates Group Application Update for Agile Delivery Lead - Customer - Emir",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Workday",
-      "role": "to Samsung",
+      "company": "CyberX Info System",
+      "role": "Global Technical Delivery Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "ProCogia",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Serve Robotics",
-      "role": "Thanks for your application",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Oracle",
-      "role": "Technical Project Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: Technical Project Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Optimus Information",
-      "role": "the time to apply for the Engagement Manager position. We just wanted to",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: Engagement Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: Software Delivery Project Manager (Vancouver, Contract)",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: Senior Software Delivery Program Manager (Talent Pool Buildi",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "Oracle",
-      "role": "The hiring manager has chosen to move forward with another candidate so we",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 07, 2026",
-      "company": "PM Exercises",
-      "role": "New PM Interview Questions and Answers",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b9dfa287272b1c",
+      "_threadId": "19b9dfa287272b1c"
     },
     {
       "date": "Jan 07, 2026",
       "company": "Deel",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "role": "Staff Technical Program Manager",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19b997b957afe998",
+      "_threadId": "19b997b957afe998"
     },
     {
       "date": "Jan 07, 2026",
-      "company": "\"Kaluva, Uday Sai | Saras America\"",
-      "role": "Role: Application (Solution) Architect",
+      "company": "Walmart",
+      "role": "Principal, Technical Program Manager, VIZIO Integration (C",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19b9c4a7a0bdc87f",
+      "_threadId": "19b9c4a7a0bdc87f"
+    },
+    {
+      "date": "Jan 07, 2026",
+      "company": "Sec",
+      "role": "Technical Program Manager has been received",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b9ba7e172965f8",
+      "_threadId": "19b9ba7e172965f8"
     },
     {
       "date": "Jan 06, 2026",
-      "company": "Etihad Airways",
-      "role": "Technical Program Manager",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
-    },
-    {
-      "date": "Jan 06, 2026",
-      "company": "LinkedIn",
+      "company": "Insight Global",
       "role": "Information Technology Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b9665083ef8961",
+      "_threadId": "19b9665083ef8961"
     },
     {
       "date": "Jan 06, 2026",
-      "company": "LinkedIn",
+      "company": "Experis",
       "role": "Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b9663a6660c701",
+      "_threadId": "19b9663a6660c701"
     },
     {
       "date": "Jan 06, 2026",
-      "company": "LinkedIn",
+      "company": "SPECTRAFORCE",
+      "role": "Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b9662ba7ac6ddd",
+      "_threadId": "19b9662ba7ac6ddd"
+    },
+    {
+      "date": "Jan 06, 2026",
+      "company": "Vision Talent Co",
       "role": "Scrum Master (Jr/Int)",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b96604e51d1e5a",
+      "_threadId": "19b96604e51d1e5a"
     },
     {
-      "date": "Jan 06, 2026",
-      "company": "Electronic Arts",
-      "role": "Technical Account Manager- Release Management (211740)",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "date": "Jan 05, 2026",
+      "company": "Iris Software",
+      "role": "Sr. Scrum Master",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b9209482b4a437",
+      "_threadId": "19b9209482b4a437"
     },
     {
-      "date": "Jan 06, 2026",
-      "company": "Program Manager at Nutanix",
+      "date": "Jan 05, 2026",
+      "company": "SPECTRAFORCE",
+      "role": "Scrum Master",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b9208a3d799b1b",
+      "_threadId": "19b9208a3d799b1b"
+    },
+    {
+      "date": "Jan 04, 2026",
+      "company": "Synechron",
+      "role": "IT-Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b8c951331f21d2",
+      "_threadId": "19b8c951331f21d2"
+    },
+    {
+      "date": "Jan 04, 2026",
+      "company": "HCLTech",
       "role": "Program Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 05, 2026",
-      "company": "LinkedIn",
-      "role": "Sr. Scrum Master",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 05, 2026",
-      "company": "Randstadservices",
-      "role": "job application confirmation, Technical Program Manager (Randstad Canada)",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 05, 2026",
-      "company": "Randstadservices",
-      "role": "job application confirmation, Technical Project Manager (Randstad Canada)",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 05, 2026",
-      "company": "LinkedIn",
-      "role": "was viewed by Cribl",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 05, 2026",
-      "company": "Amazon",
-      "role": "Manager, Selling Partner Engagement",
-      "status": "Not Moving Forward",
-      "comment": "Rejection received"
+      "notes": "Application received",
+      "_msgId": "19b8c934734e3e57",
+      "_threadId": "19b8c934734e3e57"
     },
     {
       "date": "Jan 04, 2026",
-      "company": "LinkedIn",
-      "role": "IT-Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 04, 2026",
-      "company": "micro1",
-      "role": "interview invite",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 04, 2026",
-      "company": "LinkedIn",
+      "company": "Emirates NBD",
       "role": "Senior Product Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 04, 2026",
-      "company": "LinkedIn",
-      "role": "IT Project Coordinator",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b89d35b13dec7d",
+      "_threadId": "19b89d35b13dec7d"
     },
     {
       "date": "Jan 04, 2026",
-      "company": "LinkedIn",
+      "company": "Confidential Careers",
+      "role": "IT Project Coordinator - Abu Dhabi",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b89834f9d45055",
+      "_threadId": "19b89834f9d45055"
+    },
+    {
+      "date": "Jan 04, 2026",
+      "company": "SteerAI",
       "role": "Scrum Master, SteerAI",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 03, 2026",
-      "company": "LinkedIn",
-      "role": "Project Manager with LPM exp",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 03, 2026",
-      "company": "micro1",
-      "role": "Your Agile Delivery &amp; Scrum Master - AI trainer Application is Moving Forwar",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b897fe6ebdb0c3",
+      "_threadId": "19b897fe6ebdb0c3"
     },
     {
       "date": "Jan 03, 2026",
       "company": "Starbucks",
-      "role": "program manager - ST position, and are currently reviewing your",
+      "role": "manager, program management",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b86ddf6325b187",
+      "_threadId": "19b86ddf6325b187"
     },
     {
       "date": "Jan 03, 2026",
-      "company": "USTAcquisition",
-      "role": "Manager (TPM)  at UST",
+      "company": "Starbucks",
+      "role": "program manager - ST",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b86e25440f89e7",
+      "_threadId": "19b86ddf6325b187"
     },
     {
-      "date": "Jan 02, 2026",
-      "company": "LinkedIn",
-      "role": "Senior Program Manager, Viewer Platform",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Block",
-      "role": "| Thank you for applying",
+      "date": "Jan 03, 2026",
+      "company": "Themesoft",
+      "role": "Project Manager with LPM exp",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b86f0bacbcc80e",
+      "_threadId": "19b86f0bacbcc80e"
     },
     {
-      "date": "Jan 02, 2026",
-      "company": "Oracle",
-      "role": "Manager - 307985",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Workday",
-      "role": "Technical Program Manager, VIZIO Integration (C-13311958) on 01/02/2026",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "MissionStaff",
-      "role": "Technical Program Manager",
+      "date": "Jan 03, 2026",
+      "company": "Salvo Software",
+      "role": "Technical Project Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b86f08cdc046af",
+      "_threadId": "19b86f08cdc046af"
     },
     {
-      "date": "Jan 02, 2026",
-      "company": "Amazon",
-      "role": "Engagement Manager, ProServe Shared Delivery Team Engagement Management",
+      "date": "Jan 03, 2026",
+      "company": "Insight Global",
+      "role": "Senior Information Technology Project Manager",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Toshiba Global Commerce Solutions",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b86eccbb3d99c9",
+      "_threadId": "19b86eccbb3d99c9"
     },
     {
       "date": "Jan 02, 2026",
       "company": "Sandisk",
-      "role": "Technical Program Manager",
+      "role": "the position of Senior Program Manager, PMO & Procurement Transformation",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b8228b4e57d7ab",
+      "_threadId": "19b8228b4e57d7ab"
     },
     {
       "date": "Jan 02, 2026",
-      "company": "LinkedIn",
+      "company": "Prolific",
+      "role": "Client Delivery Lead",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19b7e421b87a68d7",
+      "_threadId": "19b7e421b87a68d7"
+    },
+    {
+      "date": "Jan 02, 2026",
+      "company": "Roku",
+      "role": "Senior Program Manager, Viewer Platform",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b82752f69ec418",
+      "_threadId": "19b82752f69ec418"
+    },
+    {
+      "date": "Jan 02, 2026",
+      "company": "Sandisk",
       "role": "Senior Program Manager, PMO & Procurement Transformation",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Alex Rechevskiy",
-      "role": "Nail any collaborative PM interview (engineer + designer)",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b82288b38db4a7",
+      "_threadId": "19b82288b38db4a7"
     },
     {
       "date": "Jan 02, 2026",
-      "company": "Agilyx",
-      "role": "apply for the Project Manager  position. We just wanted to let you know",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Fobi AI",
-      "role": "apply for the Project Manager position. We just wanted to let you know that",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: Project Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Global Relay",
-      "role": "Technical Program Manager",
-      "status": "Interviewed",
-      "comment": "Interview / recruiter outreach"
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: Senior Technical Product Manager - Archive Services",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Indeed Apply",
-      "role": "Indeed Application: SCRUM Project Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "LinkedIn",
+      "company": "Unisoft Technology",
       "role": "Program Manager (On-site)",
       "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Dice",
-      "role": "Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Dice",
-      "role": "Technical Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Dice",
-      "role": "ServiceNow Program Manager",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 02, 2026",
-      "company": "Dice",
-      "role": "Senior Agile Project Manager / Scrum Master (Insurance Domain)",
-      "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b7f0d69d15405e",
+      "_threadId": "19b7f0d69d15405e"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "TMC Middle East",
       "role": "Tech & Digital Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b7d21f01be304e",
+      "_threadId": "19b7d21f01be304e"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "ManpowerGroup Middle East",
+      "role": "Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b7d21be462b797",
+      "_threadId": "19b7d21be462b797"
+    },
+    {
+      "date": "Jan 01, 2026",
+      "company": "Primis",
+      "role": "Senior Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b7d21ae937b719",
+      "_threadId": "19b7d21ae937b719"
+    },
+    {
+      "date": "Jan 01, 2026",
+      "company": "Sundus",
       "role": "Digital – Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b7d2142ccdd647",
+      "_threadId": "19b7d2142ccdd647"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "Samsung Gulf",
       "role": "AI Transformation Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b7d20e3aa1b15a",
+      "_threadId": "19b7d20e3aa1b15a"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "First Point Group",
+      "role": "Technical Project Manager",
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b7d2093ea5bfc4",
+      "_threadId": "19b7d2093ea5bfc4"
+    },
+    {
+      "date": "Jan 01, 2026",
+      "company": "AIQU",
       "role": "Information Communication Technology Project Manager",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 01, 2026",
-      "company": "PM Exercises",
-      "role": "Top PM Interview Questions and Answers of 2025",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b7d204bbd7eb60",
+      "_threadId": "19b7d204bbd7eb60"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "Technical Product Owner",
-      "role": "Technical Program Manager",
+      "company": "Dubai Holding",
+      "role": "Senior Manager – Strategy & Execution (B2C)",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b7a67c41b577ae",
+      "_threadId": "19b7a67c41b577ae"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "Dubai Holding",
       "role": "Senior Manager, Business Operations - Infrastructure",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 01, 2026",
-      "company": "First Abu Dhabi Bank",
-      "role": "Technical Program Manager",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b7a67e076f4ce2",
+      "_threadId": "19b7a67c41b577ae"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "Amazon",
-      "role": "Manager, ROW SHARP",
+      "company": "Confidential",
+      "role": "IT Project Coordinator - Abu Dhabi",
       "status": "Applied",
-      "comment": ""
+      "notes": "Application received",
+      "_msgId": "19b7a0f95f9068a9",
+      "_threadId": "19b7a0f95f9068a9"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "Al Futtaim A Future with us",
-      "role": "174413, Digital Delivery Lead | Al-Futtaim Finance | Financial Services for",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 01, 2026",
-      "company": "LinkedIn",
-      "role": "IT Project Coordinator  - Abu Dhabi",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 01, 2026",
-      "company": "LinkedIn",
-      "role": "Scrum Master Generative AI",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
-    },
-    {
-      "date": "Jan 01, 2026",
-      "company": "Agile Delivery Lead",
-      "role": "Customer - Emiratisation",
-      "status": "Applied",
-      "comment": ""
-    },
-    {
-      "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "TAT IT Technolgies",
       "role": "Scrum Master / Agile Delivery Lead – SME/Corporate Lending",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b79fcbd3f2bc9d",
+      "_threadId": "19b79fcbd3f2bc9d"
     },
     {
       "date": "Jan 01, 2026",
-      "company": "LinkedIn",
+      "company": "Deeplight AI",
       "role": "Senior Scrum Master",
-      "status": "Submitted via Agency",
-      "comment": "Submitted via recruiting agency"
+      "status": "Applied",
+      "notes": "Application received",
+      "_msgId": "19b79fac8ef75780",
+      "_threadId": "19b79fac8ef75780"
+    },
+    {
+      "date": "Dec 31, 2025",
+      "company": "Dickssportinggoods",
+      "role": "Group Program Manager, Athlete Data & Intelligence Platforms (REMOTE)",
+      "status": "Unmatched",
+      "notes": "Not selected",
+      "_msgId": "19b77f71c3b66a31",
+      "_threadId": "19b77f71c3b66a31"
     }
   ]
 }
