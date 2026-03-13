@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="Job Tracker"/>
+<meta name="theme-color" content="#0d3557"/>
+<title>Job Tracker · Balaji</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --navy:#0d3557;--blue:#1e6fa8;--sky:#7ab8d9;--pale:#b8d9ee;
+  --mist:#dceef8;--cloud:#edf5fb;--white:#ffffff;--bg:#f0f5fb;
+  --text:#0d2137;--text2:#3d6480;--text3:#7a9ab5;--text4:#b0c8d9;
+  --border:#d0e4f0;--border2:#e8f2f9;
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bot:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif}
+body{
+  padding-top:var(--safe-top);
+  padding-bottom:calc(var(--safe-bot) + 16px);
+  min-height:100vh;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-thumb{background:var(--pale);border-radius:4px}
+
+/* ── STICKY HEADER ── */
+#header{
+  position:sticky;top:0;z-index:50;
+  background:var(--navy);
+  padding:12px 16px 14px;
+  color:#fff;
+}
+.header-row{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;gap:8px}
+.brand{font-size:9px;letter-spacing:2.5px;opacity:.4;font-weight:700;margin-bottom:2px}
+.header-title{font-size:19px;font-weight:800;letter-spacing:-.3px}
+.header-sub{font-size:10.5px;opacity:.4;margin-top:2px}
+.sync-btn{
+  display:flex;align-items:center;gap:5px;flex-shrink:0;
+  padding:7px 13px;border-radius:20px;
+  background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.2);
+  color:#fff;font-size:11px;font-weight:600;cursor:pointer;
+  font-family:'Inter',sans-serif;white-space:nowrap;
+  transition:background .15s;
+}
+.sync-btn:active{background:rgba(255,255,255,.25)}
+.sync-btn.spinning .si{display:inline-block;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.stats-row{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.stats-row::-webkit-scrollbar{display:none}
+.sc{background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:9px 13px;min-width:76px;flex-shrink:0}
+.sc .v{font-size:21px;font-weight:800;color:#fff;font-family:'IBM Plex Mono',monospace;line-height:1}
+.sc .l{font-size:8px;opacity:.4;margin-top:3px;letter-spacing:.9px;font-weight:700}
+.sc.g .v{color:#6ee7b7}.sc.r .v{color:#fca5a5}.sc.p .v{color:#c4b5fd}.sc.a .v{color:#fcd34d}
+
+/* ── CARD ── */
+.card{background:var(--white);margin:10px 12px 0;border-radius:14px;overflow:hidden;border:1px solid var(--border2);box-shadow:0 1px 4px rgba(13,53,87,.04)}
+.card-head{padding:12px 14px 0;display:flex;justify-content:space-between;align-items:center}
+.card-title{font-size:10.5px;font-weight:700;color:var(--navy);letter-spacing:.5px}
+.card-meta{font-size:10px;color:var(--text4)}
+
+/* ── DATE RANGE ── */
+.dr-wrap{padding:10px 14px 12px;display:flex;flex-direction:column;gap:9px}
+.dr-pills{display:flex;gap:5px;flex-wrap:wrap}
+.dr-pill{padding:5px 12px;border-radius:20px;font-size:10.5px;font-weight:600;border:1.5px solid var(--border);background:var(--cloud);color:var(--text3);cursor:pointer;white-space:nowrap;transition:all .12s;font-family:'Inter',sans-serif}
+.dr-pill.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.dr-custom{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dr-label{font-size:9px;color:var(--text4);font-weight:700;letter-spacing:.5px;white-space:nowrap}
+.dr-input{padding:5px 9px;border-radius:8px;border:1.5px solid var(--border);background:var(--cloud);color:var(--text);font-size:11px;font-family:'Inter',sans-serif;outline:none;transition:border .15s;min-width:0;flex:1;max-width:140px}
+.dr-input:focus{border-color:var(--sky)}
+
+/* ── CHART ── */
+.chart-wrap{padding:2px 14px 14px;height:90px;position:relative}
+
+/* ── FILTERS ── */
+.filters-wrap{padding:10px 14px 12px;display:flex;gap:8px;flex-wrap:wrap}
+.fg{display:flex;flex-direction:column;gap:3px;flex:1;min-width:120px}
+.fg-label{font-size:8.5px;font-weight:700;letter-spacing:1px;color:var(--text4)}
+.fg-input{padding:7px 10px;border-radius:8px;border:1.5px solid var(--border);background:var(--cloud);color:var(--text);font-size:12px;font-family:'Inter',sans-serif;outline:none;transition:border .15s;width:100%}
+.fg-input:focus{border-color:var(--sky)}
+.fg-input::placeholder{color:var(--text4)}
+select.fg-input{cursor:pointer;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%237a9ab5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;padding-right:28px}
+
+/* ── TABLE ── */
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;min-width:480px}
+thead th{background:var(--cloud);padding:8px 12px;text-align:left;font-size:9px;font-weight:700;color:var(--text3);letter-spacing:1px;border-bottom:1.5px solid var(--border);white-space:nowrap;cursor:pointer;user-select:none}
+thead th:hover{background:var(--mist)}
+thead th .si2{margin-left:2px;opacity:.35;font-size:9px}
+thead th.sorted .si2{opacity:1;color:var(--navy)}
+tbody tr{border-bottom:1px solid var(--border2)}
+tbody tr:active td{background:var(--cloud)}
+td{padding:9px 12px;font-size:11.5px;vertical-align:middle}
+.td-num{color:var(--text4);font-family:'IBM Plex Mono',monospace;font-size:9.5px;width:28px}
+.td-date{color:var(--text3);font-family:'IBM Plex Mono',monospace;font-size:10px;white-space:nowrap}
+.td-co{font-weight:700;color:var(--navy);white-space:nowrap}
+.td-role{color:var(--text2);max-width:190px}
+.td-role span,.td-note span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.td-note{color:var(--text3);max-width:140px;font-size:10.5px}
+.badge{display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:20px;font-size:9.5px;font-weight:600;white-space:nowrap}
+.dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+
+/* ── FOOTER ── */
+.foot-card{background:var(--white);margin:10px 12px 0;border-radius:14px;border:1px solid var(--border2);padding:10px 14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;box-shadow:0 1px 4px rgba(13,53,87,.04)}
+.foot-count{font-size:9.5px;color:var(--text3);font-family:'IBM Plex Mono',monospace}
+.legend{display:flex;gap:8px;flex-wrap:wrap}
+.leg{display:flex;align-items:center;gap:3px;font-size:9px}
+
+/* ── LOADING ── */
+#loading{position:fixed;inset:0;background:var(--navy);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:200;transition:opacity .4s}
+#loading.hidden{opacity:0;pointer-events:none}
+.ll{font-size:32px;margin-bottom:10px}.lt{color:#fff;font-size:16px;font-weight:700;margin-bottom:4px}
+.ls{color:rgba(255,255,255,.4);font-size:11px;margin-bottom:22px}
+.lb{width:180px;height:3px;background:rgba(255,255,255,.15);border-radius:2px;overflow:hidden}
+.lp{height:100%;background:var(--sky);border-radius:2px;animation:prog 2.5s ease forwards}
+@keyframes prog{from{width:0}to{width:100%}}
+.lm{color:rgba(255,255,255,.35);font-size:10px;margin-top:10px;font-family:'IBM Plex Mono',monospace}
+
+/* ── TOAST ── */
+#toast{position:fixed;bottom:calc(16px + var(--safe-bot));left:50%;transform:translateX(-50%) translateY(16px);background:var(--navy);color:#fff;padding:9px 18px;border-radius:20px;font-size:12px;font-weight:600;opacity:0;transition:all .25s;pointer-events:none;white-space:nowrap;z-index:300}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+#empty{text-align:center;padding:36px 20px;color:var(--text4);font-size:13px;display:none}
+#err-bar{display:none;background:#fdecea;padding:7px 14px;font-size:11px;color:#c0392b;text-align:center;margin:8px 12px;border-radius:8px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.ri{animation:fadeUp .12s ease both}
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="ll">📋</div>
+  <div class="lt">Job Tracker</div>
+  <div class="ls">Balaji Sivarajan</div>
+  <div class="lb"><div class="lp"></div></div>
+  <div class="lm" id="lmsg">Fetching latest data...</div>
+</div>
+
+<!-- STICKY HEADER -->
+<div id="header">
+  <div class="header-row">
+    <div>
+      <div class="brand">JOB TRACKER</div>
+      <div class="header-title">My Applications</div>
+      <div class="header-sub">Balaji Sivarajan · <span id="sync-label">Loading...</span></div>
+    </div>
+    <button class="sync-btn" id="sync-btn" onclick="manualSync()">
+      <span class="si">⟳</span> Sync
+    </button>
+  </div>
+  <div class="stats-row">
+    <div class="sc">  <div class="v" id="s-total">—</div><div class="l">TOTAL</div></div>
+    <div class="sc g"><div class="v" id="s-apply">—</div><div class="l">APPLIED</div></div>
+    <div class="sc r"><div class="v" id="s-rej">—</div>  <div class="l">REJECTED</div></div>
+    <div class="sc p"><div class="v" id="s-int">—</div>  <div class="l">ACTIVE</div></div>
+    <div class="sc a"><div class="v" id="s-show">—</div> <div class="l">SHOWING</div></div>
+  </div>
+</div>
+
+<!-- PAGE — fully scrollable -->
+<div id="page-body" style="opacity:0;transition:opacity .3s">
+
+  <div id="err-bar"></div>
+
+  <!-- DATE RANGE + CHART CARD -->
+  <div class="card">
+    <div class="card-head">
+      <span class="card-title">DATE RANGE</span>
+      <span class="card-meta" id="chart-meta"></span>
+    </div>
+    <div class="dr-wrap">
+      <div class="dr-pills">
+        <button class="dr-pill active" data-days="" onclick="setRange(this,'')">All Time</button>
+        <button class="dr-pill" data-days="7"  onclick="setRange(this,'7')">1 Week</button>
+        <button class="dr-pill" data-days="30" onclick="setRange(this,'30')">1 Month</button>
+        <button class="dr-pill" data-days="60" onclick="setRange(this,'60')">2 Months</button>
+        <button class="dr-pill" data-days="90" onclick="setRange(this,'90')">3 Months</button>
+      </div>
+      <div class="dr-custom">
+        <span class="dr-label">CUSTOM →</span>
+        <input type="date" class="dr-input" id="dr-start" oninput="setCustomRange()"/>
+        <span style="color:var(--text4);font-size:12px;flex-shrink:0">→</span>
+        <input type="date" class="dr-input" id="dr-end"   oninput="setCustomRange()"/>
+      </div>
+    </div>
+    <div class="chart-wrap"><canvas id="myChart"></canvas></div>
+  </div>
+
+  <!-- APPLICATIONS CARD -->
+  <div class="card" style="margin-top:10px">
+    <div class="card-head" style="padding-bottom:8px">
+      <span class="card-title">APPLICATIONS</span>
+    </div>
+    <div class="filters-wrap">
+      <div class="fg">
+        <div class="fg-label">COMPANY</div>
+        <input class="fg-input" id="f-co" type="search" placeholder="Search company..." autocomplete="off" oninput="render()"/>
+      </div>
+      <div class="fg">
+        <div class="fg-label">STATUS</div>
+        <select class="fg-input" id="f-status" onchange="render()">
+          <option value="">All Statuses</option>
+          <option value="Applied">Applied</option>
+          <option value="Interviewing">Interviewing</option>
+          <option value="Accepted">Accepted 🎉</option>
+          <option value="Unmatched">Unmatched</option>
+        </select>
+      </div>
+      <div class="fg">
+        <div class="fg-label">SEARCH</div>
+        <input class="fg-input" id="f-q" type="search" placeholder="Role or notes..." autocomplete="off" oninput="render()"/>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th onclick="sortBy('#')"       data-col="#">#<span class="si2">↕</span></th>
+            <th onclick="sortBy('date')"    data-col="date">DATE<span class="si2">↕</span></th>
+            <th onclick="sortBy('company')" data-col="company">COMPANY<span class="si2">↕</span></th>
+            <th onclick="sortBy('role')"    data-col="role">ROLE<span class="si2">↕</span></th>
+            <th onclick="sortBy('status')"  data-col="status">STATUS<span class="si2">↕</span></th>
+            <th onclick="sortBy('notes')"   data-col="notes">NOTES<span class="si2">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div id="empty">No applications match your filters.</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="foot-card">
+    <span class="foot-count" id="foot-count"></span>
+    <div class="legend" id="legend"></div>
+  </div>
+
+</div>
+
+<div id="toast"></div>
+
+<script>
+// ── CONFIG ─────────────────────────────────────────────────
+// Same repo — both files live at job-tracker-data on GitHub Pages
+const DATA_URL = "./data.json";
+
+const SC = {
+  "Applied":              {color:"#1a8a5a",bg:"#e6f7f1",label:"Applied"},
+  "Unmatched":            {color:"#c0392b",bg:"#fdecea",label:"Unmatched"},
+  "Interviewing":         {color:"#2d5fd4",bg:"#eaeffc",label:"Interviewing"},
+  "Accepted":             {color:"#0e7490",bg:"#e0f5f9",label:"Accepted 🎉"},
+  // graceful fallbacks for old data.json entries
+  "Not Moving Forward":   {color:"#c0392b",bg:"#fdecea",label:"Unmatched"},
+  "Screening":            {color:"#7c3aed",bg:"#f3eefe",label:"Interviewing"},
+  "Interviewed":          {color:"#2d5fd4",bg:"#eaeffc",label:"Interviewing"},
+  "Role on Hold":         {color:"#b45309",bg:"#fef3e2",label:"Applied"},
+  "Submitted via Agency": {color:"#c2410c",bg:"#feeee7",label:"Applied"},
+  "Offer":                {color:"#0e7490",bg:"#e0f5f9",label:"Accepted 🎉"},
+};
+
+// ── STATE ──────────────────────────────────────────────────
+let ALL   = [];
+let sCol  = "date", sDir = "desc";
+let RNG   = null;   // null = all time, else {start:ms|null, end:ms|null}
+let CHART = null;
+
+// ── DATE PARSING — mobile-safe ─────────────────────────────
+// Parses "Mar 12, 2026" without relying on new Date(string)
+const MON = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+function pd(str) {
+  if (!str) return null;
+  const m = str.match(/^([A-Za-z]{3})\s+(\d{1,2}),\s+(\d{4})$/);
+  if (!m) return null;
+  const mo = MON[m[1].toLowerCase()];
+  return (mo === undefined) ? null : new Date(+m[3], mo, +m[2]);
+}
+function inRange(dateStr) {
+  if (!RNG) return true;
+  const d = pd(dateStr); if (!d) return true;
+  const t = d.getTime();
+  if (RNG.start && t < RNG.start) return false;
+  if (RNG.end   && t > RNG.end)   return false;
+  return true;
+}
+
+// ── BOOT ───────────────────────────────────────────────────
+async function boot() {
+  try {
+    setLm("Fetching latest data...");
+    await load();
+    setLm("Building dashboard...");
+    await new Promise(r=>setTimeout(r,220));
+    closeSplash();
+  } catch(e) {
+    setLm("⚠ " + e.message);
+    await new Promise(r=>setTimeout(r,1400));
+    closeSplash(e.message);
+  }
+}
+function closeSplash(err) {
+  document.getElementById("loading").classList.add("hidden");
+  document.getElementById("page-body").style.opacity = "1";
+  if (err) showErr("Could not load: " + err);
+}
+function setLm(m){ document.getElementById("lmsg").textContent = m; }
+
+// ── LOAD ───────────────────────────────────────────────────
+async function load() {
+  const r = await fetch(DATA_URL + "?t=" + Date.now());
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  const j = await r.json();
+  ALL = j.applications || [];
+  const sd = j.lastUpdated
+    ? new Date(j.lastUpdated).toLocaleString("en-US",{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})
+    : "—";
+  document.getElementById("sync-label").textContent = "Synced " + sd;
+  buildLegend();
+  updateAll();
+}
+
+async function manualSync() {
+  const btn = document.getElementById("sync-btn");
+  btn.classList.add("spinning"); btn.disabled=true;
+  showToast("⟳ Refreshing...");
+  try { await load(); showToast("✅ Synced — " + ALL.length + " applications"); }
+  catch(e) { showToast("⚠ Sync failed"); }
+  btn.classList.remove("spinning"); btn.disabled=false;
+}
+
+// ── DATE RANGE CONTROLS ────────────────────────────────────
+function setRange(btn, days) {
+  document.querySelectorAll(".dr-pill").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  document.getElementById("dr-start").value = "";
+  document.getElementById("dr-end").value   = "";
+  if (!days) {
+    RNG = null;
+  } else {
+    const end = new Date(); end.setHours(23,59,59,999);
+    const start = new Date(); start.setDate(start.getDate()-parseInt(days)); start.setHours(0,0,0,0);
+    RNG = {start:start.getTime(), end:end.getTime()};
+  }
+  updateAll();
+}
+
+function setCustomRange() {
+  const sv = document.getElementById("dr-start").value;
+  const ev = document.getElementById("dr-end").value;
+  if (!sv && !ev) return;
+  document.querySelectorAll(".dr-pill").forEach(b=>b.classList.remove("active"));
+  RNG = {
+    start: sv ? new Date(sv+"T00:00:00").getTime() : null,
+    end:   ev ? new Date(ev+"T23:59:59").getTime() : null,
+  };
+  updateAll();
+}
+
+// ── UPDATE ALL — one call refreshes everything ─────────────
+function updateAll() { buildStats(); buildChart(); render(); }
+
+// ── RANGE-FILTERED SLICE (no text filters) ─────────────────
+function rangeSlice() { return ALL.filter(x=>inRange(x.date)); }
+
+// ── FULLY FILTERED SLICE (range + text filters) ────────────
+function filtered() {
+  const fCo = (document.getElementById("f-co")?.value||"").toLowerCase().trim();
+  const fSt = document.getElementById("f-status")?.value||"";
+  const fQ  = (document.getElementById("f-q")?.value||"").toLowerCase().trim();
+  return rangeSlice().filter(x=>{
+    if (fCo && !(x.company||"").toLowerCase().includes(fCo))    return false;
+    if (fSt && x.status !== fSt)                                 return false;
+    if (fQ  && !((x.role||"")+" "+(x.notes||x.comment||"")).toLowerCase().includes(fQ)) return false;
+    return true;
+  });
+}
+
+// ── STATS ──────────────────────────────────────────────────
+function buildStats() {
+  const rs = rangeSlice();
+  document.getElementById("s-total").textContent = rs.length;
+  document.getElementById("s-apply").textContent = rs.filter(d=>["Applied","Role on Hold","Submitted via Agency"].includes(d.status)).length;
+  document.getElementById("s-rej").textContent   = rs.filter(d=>["Not Moving Forward","Unmatched"].includes(d.status)).length;
+  document.getElementById("s-int").textContent   = rs.filter(d=>["Interviewing","Screening","Interviewed","Accepted","Offer"].includes(d.status)).length;
+  document.getElementById("s-show").textContent  = filtered().length;
+}
+
+// ── CHART ──────────────────────────────────────────────────
+function buildChart() {
+  const rs = rangeSlice();
+  const counts = {};
+  rs.forEach(d=>{ counts[d.date]=(counts[d.date]||0)+1; });
+  const sorted = Object.keys(counts).sort((a,b)=>{
+    const da=pd(a)||new Date(0), db=pd(b)||new Date(0);
+    return da-db;
+  });
+  const labels = sorted.map(d=>{ const dt=pd(d); return dt?(dt.getMonth()+1)+"/"+dt.getDate():d; });
+  const values = sorted.map(d=>counts[d]);
+
+  document.getElementById("chart-meta").textContent =
+    sorted.length>=2 ? sorted[0]+" – "+sorted[sorted.length-1] : "";
+
+  if (CHART){ CHART.destroy(); CHART=null; }
+  const ctx = document.getElementById("myChart").getContext("2d");
+  CHART = new Chart(ctx,{
+    type:"line",
+    data:{labels,datasets:[{
+      data:values, borderColor:"#1e6fa8",
+      backgroundColor:"rgba(30,111,168,0.07)",
+      borderWidth:2, pointBackgroundColor:"#1e6fa8",
+      pointRadius:3, pointHoverRadius:5, fill:true, tension:0.4,
+    }]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:"#0d3557",titleColor:"#fff",bodyColor:"#b8d9ee",
+          padding:8,cornerRadius:6,
+          callbacks:{
+            title:items=>sorted[items[0].dataIndex]||"",
+            label:c=>`${c.parsed.y} application${c.parsed.y!==1?"s":""}`
+          }
+        }
+      },
+      scales:{
+        x:{grid:{display:false},ticks:{color:"#7a9ab5",font:{size:9},maxTicksLimit:10}},
+        y:{grid:{color:"#e3eff8"},ticks:{color:"#7a9ab5",font:{size:9},stepSize:1,maxTicksLimit:5},beginAtZero:true}
+      }
+    }
+  });
+}
+
+// ── LEGEND ─────────────────────────────────────────────────
+function buildLegend() {
+  const w=document.getElementById("legend"); w.innerHTML="";
+  const tally={};
+  ALL.forEach(d=>{ const c=SC[d.status]; if(c){ tally[c.label]=(tally[c.label]||0)+1; }});
+  Object.entries(tally).forEach(([label,cnt])=>{
+    const cfg=Object.values(SC).find(c=>c.label===label); if(!cfg) return;
+    const el=document.createElement("span"); el.className="leg"; el.style.color=cfg.color;
+    el.innerHTML=`<span style="width:5px;height:5px;border-radius:50%;background:${cfg.color};display:inline-block;flex-shrink:0"></span>${label} ${cnt}`;
+    w.appendChild(el);
+  });
+}
+
+// ── SORT ───────────────────────────────────────────────────
+function sortBy(col) {
+  if (sCol===col){ sDir=sDir==="asc"?"desc":"asc"; } else { sCol=col; sDir=col==="date"?"desc":"asc"; }
+  document.querySelectorAll("thead th").forEach(th=>{
+    const ico=th.querySelector(".si2");
+    if(th.dataset.col===col){ th.classList.add("sorted"); if(ico) ico.textContent=sDir==="asc"?"↑":"↓"; }
+    else { th.classList.remove("sorted"); if(ico) ico.textContent="↕"; }
+  });
+  render();
+}
+
+// ── RENDER ─────────────────────────────────────────────────
+function render() {
+  buildStats();
+  let d = filtered();
+
+  d.sort((a,b)=>{
+    if(sCol==="date"){
+      const da=pd(a.date)||new Date(0), db=pd(b.date)||new Date(0);
+      return sDir==="desc"?db-da:da-db;
+    }
+    const fa = sCol==="notes"?(a.notes||a.comment||""):(a[sCol]||"");
+    const fb = sCol==="notes"?(b.notes||b.comment||""):(b[sCol]||"");
+    const va=String(fa).toLowerCase(), vb=String(fb).toLowerCase();
+    if(va<vb) return sDir==="asc"?-1:1;
+    if(va>vb) return sDir==="asc"?1:-1;
+    return 0;
+  });
+
+  const rs = rangeSlice();
+  document.getElementById("foot-count").textContent =
+    `${d.length} of ${rs.length} in range · ${sDir==="desc"?"newest":"oldest"} first`;
+
+  const tbody=document.getElementById("tbody");
+  const empty=document.getElementById("empty");
+  if(!d.length){ tbody.innerHTML=""; empty.style.display="block"; return; }
+  empty.style.display="none";
+
+  tbody.innerHTML = d.map((row,i)=>{
+    const cfg=SC[row.status]||SC["Applied"];
+    const notes=row.notes||row.comment||"";
+    return `<tr class="ri" style="animation-delay:${Math.min(i*4,60)}ms">
+      <td class="td-num">${i+1}</td>
+      <td class="td-date">${row.date||""}</td>
+      <td class="td-co">${esc(row.company||"")}</td>
+      <td class="td-role"><span title="${esc(row.role||"")}">${esc(row.role||"")}</span></td>
+      <td><span class="badge" style="background:${cfg.bg};color:${cfg.color}">
+        <span class="dot" style="background:${cfg.color}"></span>${cfg.label}
+      </span></td>
+      <td class="td-note"><span title="${esc(notes)}">${notes?esc(notes):"—"}</span></td>
+    </tr>`;
+  }).join("");
+}
+
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+function showErr(m){const b=document.getElementById("err-bar");b.textContent=m;b.style.display="block"}
+function showToast(m){const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2800)}
+
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+boot();
+</script>
+</body>
+</html>
