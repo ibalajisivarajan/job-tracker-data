@@ -495,7 +495,7 @@ function render() {
       <td class="td-num">${i+1}</td>
       <td class="td-date">${row.date||""}</td>
       <td class="td-co">${esc(row.company||"")}</td>
-      <td class="td-role"><span title="${esc(row.role||"")}">${esc(row.role||"")}</span></td>
+      <td class="td-role"><span title="${esc(row.role||"")}">${row.gmailUrl ? `<a href="${esc(row.gmailUrl)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:2px">${esc(row.role||"")}</a>` : esc(row.role||"")}</span></td>
       <td><span class="badge" style="background:${cfg.bg};color:${cfg.color}">
         <span class="dot" style="background:${cfg.color}"></span>${cfg.label}
       </span></td>
